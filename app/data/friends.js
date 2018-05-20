@@ -1,9 +1,9 @@
 // data structure to store the friends data -- with which the user will find a match
 var friendsArr = [
   {
-    name: 'Lando Calrissian',
-    photo: '#',
-    scores: [
+    "name": "Lando Calrissian",
+    "photo": "#",
+    "scores": [
       5,
       5,
       3,
@@ -17,9 +17,9 @@ var friendsArr = [
     ]
   },
   {
-    name: 'Luke Skywalker',
-    photo: '#',
-    score: [
+    "name": "Luke Skywalker",
+    "photo": "#",
+    "scores": [
       3,
       4,
       2,
@@ -33,9 +33,9 @@ var friendsArr = [
     ]
   },
   {
-    name: 'R2-D2',
-    photo: '#',
-    score: [
+    "name": "R2-D2",
+    "photo": "#",
+    "scores": [
       4,
       4,
       1,
@@ -49,3 +49,5 @@ var friendsArr = [
     ]
   }
 ];
+
+module.exports = friendsArr;
