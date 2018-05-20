@@ -11,8 +11,8 @@ module.exports = function(app) {
   // Friend finding logic
   app.post('/api/friends', function (req, res) {
 
-    TODO: // Add all the friend matching logic here
+    // TODO: Add all the friend matching logic here
 
   });
 
-}
+};
