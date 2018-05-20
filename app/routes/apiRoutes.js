@@ -11,7 +11,7 @@ module.exports = function(app) {
   // Friend finding logic
   app.post('api/friends', function (req, res) {
 
-    
+    console.log(req.body);
 
   });
 
