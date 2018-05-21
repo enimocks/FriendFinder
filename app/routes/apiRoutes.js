@@ -38,7 +38,6 @@ module.exports = function (app) {
 
         // We calculate the difference between the scores and sum them into the totalDifference
         totalDifference += Math.abs(userScores[j] - friends[i].scores[j]);
-console.log(friends[i].scores[j])
         // If the sum of differences is less then the differences of the current "best match"
         if (totalDifference <= bestMatch.friendDifference) {
 
@@ -57,6 +56,7 @@ console.log(friends[i].scores[j])
     // Return a JSON with the user's bestMatch. This will be used by the HTML in the next page. 
     res.json(bestMatch);
     console.log(bestMatch);
+    console.log(userData)
 
   });
 
