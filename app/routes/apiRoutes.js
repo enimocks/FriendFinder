@@ -14,7 +14,7 @@ module.exports = function (app) {
     var bestMatch = {
       name: "",
       photo: "",
-      friendDifference: 1000
+      friendDifference: 100
     };
 
     // Here we take the result of the user's survey POST and parse it.
@@ -39,8 +39,9 @@ module.exports = function (app) {
         // We calculate the difference between the scores and sum them into the totalDifference
         totalDifference += Math.abs(userScores[j] - friends[i].scores[j]);
         // If the sum of differences is less then the differences of the current "best match"
+        console.log(totalDifference);
         if (totalDifference <= bestMatch.friendDifference) {
-
+          console.log(bestMatch.friendDifference);
           // Reset the bestMatch to be the new friend. 
           bestMatch.name = friends[i].name;
           bestMatch.photo = friends[i].photo;
@@ -55,8 +56,8 @@ module.exports = function (app) {
 
     // Return a JSON with the user's bestMatch. This will be used by the HTML in the next page. 
     res.json(bestMatch);
-    console.log(bestMatch);
-    console.log(userData)
+    // console.log(bestMatch);
+    // console.log(userData);
 
   });
 
