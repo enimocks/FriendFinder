@@ -2,7 +2,7 @@
 var friendsArr = [
   {
     "name": "Lando Calrissian",
-    "photo": "http://starwars.wikia.com/wiki/Lando_Calrissian/Legends",
+    "photo": "#",
     "scores": [
       5,
       5,
@@ -34,7 +34,7 @@ var friendsArr = [
   },
   {
     "name": "R2-D2",
-    "photo": "http://www.businessinsider.com/why-r2-d2-woke-up-in-star-wars-the-force-awakens-2016-1",
+    "photo": "#",
     "scores": [
       4,
       4,
