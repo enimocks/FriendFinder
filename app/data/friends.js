@@ -2,7 +2,7 @@
 var friendsArr = [
   {
     "name": "Lando Calrissian",
-    "photo": "#",
+    "photo": "https://vignette.wikia.nocookie.net/starwars/images/7/7d/Lando_WoSW.jpg/revision/latest/scale-to-width-down/500?cb=20080715214753",
     "scores": [
       5,
       5,
@@ -18,7 +18,7 @@ var friendsArr = [
   },
   {
     "name": "Luke Skywalker",
-    "photo": "#",
+    "photo": "http://s3.amazonaws.com/libapps/accounts/81381/images/star-wars-luke-skywalker-tatooine.jpg",
     "scores": [
       3,
       4,
@@ -34,7 +34,7 @@ var friendsArr = [
   },
   {
     "name": "R2-D2",
-    "photo": "#",
+    "photo": "https://cdn.thisiswhyimbroke.com/images/life-size-r2d2-figure-640x534.jpg",
     "scores": [
       4,
       4,

@@ -48,7 +48,6 @@ module.exports = function (app) {
           bestMatch.photo = friends[i].photo;
           bestMatch.friendDifference = totalDifference;
         }
-        console.log(friends[i].scores[j]);
       }
     }
 
